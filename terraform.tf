@@ -5,13 +5,13 @@ terraform {
 
   # Used for CLI with Terraform HCP
   # Not needed when using VCS approach 
-  # cloud {
-  #   organization = "solaas-tutorial"
+  cloud {
+    organization = "solaas-tutorial"
 
-  #   workspaces {
-  #     name = "learn-terraform"
-  #   }
-  # }
+    workspaces {
+      name = "learn-terraform"
+    }
+  }
 
   required_providers {
     aws = {
